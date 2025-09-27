@@ -1,6 +1,7 @@
 var n = document.querySelectorAll(".drum").length;
 
 function playAudio(test) {
+
     switch (test) {
                 case "w":
                     var audio = new Audio("./sounds/crash.mp3");
@@ -70,8 +71,3 @@ function buttonAnimation(currentKey) {
         document.querySelector("." + currentKey).classList.remove("pressed")
     }, 100);
 }
-
-
-
-
-
